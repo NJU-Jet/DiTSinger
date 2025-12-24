@@ -1,40 +1,164 @@
+/* =========================================================
+   Global
+   ========================================================= */
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
   background: #ffffff;
   color: #111;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
   width: 900px;
-  margin: auto;
+  margin: 80px auto 120px auto;
 }
 
-h1 {
+
+/* =========================================================
+   Title
+   ========================================================= */
+
+.paper-title {
   text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin-bottom: 16px;
 }
 
-.subtitle {
+.paper-subtitle {
   text-align: center;
-  font-size: 18px;
-  color: #555;
+  font-size: 22px;
+  color: #666;
+  margin-bottom: 80px;
 }
+
+
+/* =========================================================
+   Sections
+   ========================================================= */
 
 section {
-  margin-top: 50px;
+  margin-top: 80px;
 }
+
+.section-title {
+  font-size: 34px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+
+/* =========================================================
+   Abstract
+   ========================================================= */
+
+.abstract-section {
+  margin-top: 40px;
+  border-left: 4px solid #e5e5e5;
+  padding-left: 24px;
+}
+
+.abstract-text {
+  font-size: 18px;
+  line-height: 1.9;
+  max-width: 780px;
+  text-align: justify;
+}
+
+.abstract-text::first-letter {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+
+/* =========================================================
+   Figures (PDF embeds)
+   ========================================================= */
+
+embed {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+
+/* =========================================================
+   Demo Table
+   ========================================================= */
 
 table {
   width: 100%;
   border-collapse: collapse;
+  margin-top: 24px;
 }
 
-th, td {
-  border: 1px solid #ccc;
-  padding: 10px;
+th {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  padding: 12px;
+  border-bottom: 2px solid #ccc;
+}
+
+td {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 16px;
   vertical-align: top;
+  text-align: center;
 }
 
-video, audio {
+audio,
+video {
   width: 100%;
+  max-width: 260px;
+  margin-top: 8px;
+  border-radius: 6px;
+}
+
+tr:hover {
+  background-color: #fafafa;
+}
+
+
+/* =========================================================
+   Utility
+   ========================================================= */
+
+p {
+  margin: 0;
+}
+
+b {
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   Responsive
+   ========================================================= */
+
+@media (max-width: 900px) {
+  .container {
+    width: 90%;
+  }
+
+  .paper-title {
+    font-size: 42px;
+  }
+
+  .paper-subtitle {
+    font-size: 18px;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  .abstract-text {
+    font-size: 16px;
+  }
 }
 
