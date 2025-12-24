@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DiTSinger: Diffusion Transformer for Singing Voice Synthesis</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h1>DiTSinger</h1>
+  <p class="subtitle">
+    Diffusion Transformer for Scalable and Alignment-Free Singing Voice Synthesis
+  </p>
+
+  <!-- Abstract -->
+  <section>
+    <h2>Abstract</h2>
+    <p>
+      Recent progress in diffusion-based Singing Voice Synthesis (SVS) demonstrates
+      strong expressiveness but remains limited by data scarcity and model scalability.
+      We introduce a two-stage pipeline: a compact seed set of human-sung recordings
+      is constructed by pairing fixed melodies with diverse LLM-generated lyrics,
+      and melody-specific models are trained to synthesize over 500 hours of
+      high-quality Chinese singing data. Building on this corpus, we propose
+      <b>DiTSinger</b>, a Diffusion Transformer with RoPE and qk-norm, systematically
+      scaled in depth, width, and resolution for enhanced fidelity.
+      Furthermore, we design an implicit alignment mechanism that obviates
+      phoneme-level duration labels by constraining phoneme-to-acoustic attention
+      within character-level spans, thereby improving robustness under noisy or
+      uncertain alignments. Extensive experiments validate that our approach enables
+      scalable, alignment-free, and high-fidelity SVS.
+    </p>
+  </section>
+
+  <!-- Data Pipeline -->
+  <section>
+    <h2>Data Construction Pipeline</h2>
+    <embed src="assets/figures/datapipeline.pdf" width="100%" height="600px">
+  </section>
+
+  <!-- Architecture -->
+  <section>
+    <h2>Model Architecture</h2>
+    <embed src="assets/figures/architecture.pdf" width="100%" height="600px">
+  </section>
+
+  <!-- Demos -->
+  <section>
+    <h2>Audio-Visual Demos</h2>
+    <p>
+      All demo songs are <b>unseen during training</b> and only use
+      <b>character-level timestamps</b>.
+    </p>
+
+    <div id="demo-table"></div>
+  </section>
+
+</div>
+
+<script src="load_demos.js"></script>
+</body>
+</html>
+
