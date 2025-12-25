@@ -218,3 +218,33 @@ b {
   color: #444;
 }
 
+/* ===== Figures ===== */
+.paper-figure {
+  display: block;
+  width: 100%;
+  max-width: 1000px;
+  margin: 24px auto;
+  border-radius: 6px;
+  background: #fff;
+}
+
+/* ===== Scaling Layout ===== */
+.scaling-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-top: 24px;
+}
+
+.scaling-item h3 {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 900px) {
+  .scaling-container {
+    grid-template-columns: 1fr;
+  }
+}
+
