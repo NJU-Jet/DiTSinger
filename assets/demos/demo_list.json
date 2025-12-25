@@ -1,9 +1,63 @@
 [
   {
+    "title": "小美满",
+    "audio": "assets/demos/xiaomeiman/original.wav",
+    "origin": "assets/demos/xiaomeiman/origin.mp4",
+    "adapted": "assets/demos/xiaomeiman/adapted.mp4"
+  },
+  {
+    "title": "乌鸦变凤凰",
+    "audio": "assets/demos/wuyabianfenghuang/original.wav",
+    "origin": "assets/demos/wuyabianfenghuang/origin.mp4",
+    "adapted": "assets/demos/wuyabianfenghuang/adapted.mp4"
+  },
+  {
+    "title": "笼",
+    "audio": "assets/demos/long/original.wav",
+    "origin": "assets/demos/long/origin.mp4",
+    "adapted": "assets/demos/long/adapted.mp4"
+  },
+  {
     "title": "爱如潮水",
     "audio": "assets/demos/airuchaoshui/original.wav",
     "origin": "assets/demos/airuchaoshui/origin.mp4",
     "adapted": "assets/demos/airuchaoshui/adapted.mp4"
+  },
+  {
+    "title": "下个路口见",
+    "audio": "assets/demos/xiagelukoujian/original.wav",
+    "origin": "assets/demos/xiagelukoujian/origin.mp4",
+    "adapted": "assets/demos/xiagelukoujian/adapted.mp4"
+  },
+  {
+    "title": "听",
+    "audio": "assets/demos/ting/original.wav",
+    "origin": "assets/demos/ting/origin.mp4",
+    "adapted": "assets/demos/ting/adapted.mp4"
+  },
+  {
+    "title": "呼叫我的球搭子",
+    "audio": "assets/demos/hujiaowodeqiudazi/original.wav",
+    "origin": "assets/demos/hujiaowodeqiudazi/origin.mp4",
+    "adapted": "assets/demos/hujiaowodeqiudazi/adapted.mp4"
+  },
+  {
+    "title": "乱七八糟的梦想",
+    "audio": "assets/demos/luanqibazaodemengxiang/original.wav",
+    "origin": "assets/demos/luanqibazaodemengxiang/origin.mp4",
+    "adapted": "assets/demos/luanqibazaodemengxiang/adapted.mp4"
+  },
+  {
+    "title": "绝配",
+    "audio": "assets/demos/juepei/original.wav",
+    "origin": "assets/demos/juepei/origin.mp4",
+    "adapted": "assets/demos/juepei/adapted.mp4"
+  },
+  {
+    "title": "疯啦",
+    "audio": "assets/demos/fengla/original.wav",
+    "origin": "assets/demos/fengla/origin.mp4",
+    "adapted": "assets/demos/fengla/adapted.mp4"
   },
   {
     "title": "不删",
@@ -12,11 +66,10 @@
     "adapted": "assets/demos/bushan/adapted.mp4"
   },
   {
-    "title": "疯啦",
-    "audio": "assets/demos/fengla/original.wav",
-    "origin": "assets/demos/fengla/origin.mp4",
-    "adapted": "assets/demos/fengla/adapted.mp4"
+    "title": "夏未央",
+    "audio": "assets/demos/xiaweiyang/original.wav",
+    "origin": "assets/demos/xiaweiyang/origin.mp4",
+    "adapted": "assets/demos/xiaweiyang/adapted.mp4"
   }
-
 ]
 
