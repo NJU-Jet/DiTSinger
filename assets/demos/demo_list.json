@@ -4,6 +4,19 @@
     "audio": "assets/demos/airuchaoshui/original.wav",
     "origin": "assets/demos/airuchaoshui/origin.mp4",
     "adapted": "assets/demos/airuchaoshui/adapted.mp4"
+  },
+  {
+    "title": "不删",
+    "audio": "assets/demos/bushan/original.wav",
+    "origin": "assets/demos/bushan/origin.mp4",
+    "adapted": "assets/demos/bushan/adapted.mp4"
+  },
+  {
+    "title": "疯啦",
+    "audio": "assets/demos/fengla/original.wav",
+    "origin": "assets/demos/fengla/origin.mp4",
+    "adapted": "assets/demos/fengla/adapted.mp4"
   }
+
 ]
 
